@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "project": "Hopeworks Skill Library",
+  "principle": "One Skill = One Job",
+  "skills": [
+    {
+      "id": "file-retrieval",
+      "name": "File Retrieval",
+      "version": "1.0.0",
+      "job": "Locate and return the correct file or information source efficiently.",
+      "canonical_format": "SKILL.md",
+      "status": "starter"
+    },
+    {
+      "id": "task-documentation",
+      "name": "Task Documentation",
+      "version": "1.0.0",
+      "job": "Turn completed work into clear, reusable task documentation.",
+      "canonical_format": "SKILL.md",
+      "status": "starter"
+    },
+    {
+      "id": "file-organization",
+      "name": "File Organization",
+      "version": "1.0.0",
+      "job": "Organize files using consistent naming, folders, and handling rules.",
+      "canonical_format": "SKILL.md",
+      "status": "starter"
+    }
+  ],
+  "export_targets": ["generic", "claude", "chatgpt", "gemini", "mcp", "api"]
+}
